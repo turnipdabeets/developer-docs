@@ -40,25 +40,7 @@ const config = {
         },
       },
     ],
-    [
-      'redocusaurus',
-      {
-        id: 'apiv0',
-        // Plugin Options for loading OpenAPI files
-        specs: [
-          {
-            spec: 'static/api/v0/openapi.json',
-            url: 'api/v0/openapi.json',
-            route: 'api/v0',
-          },
-        ],
-        // Theme Options for modifying how redoc renders them
-        theme: {
-          // Change with your site colors
-          primaryColor: '#5077c5',
-        },
-      },
-    ],
+    
     [
       'redocusaurus',
       {
@@ -277,10 +259,7 @@ const config = {
               label: 'Blog',
               href: 'https://www.beyondidentity.com/developers/blog',
             },
-            {
-              label: 'v0 Docs',
-              to: '/docs/v0/introduction',
-            },
+            
           ],
         },
       ],
