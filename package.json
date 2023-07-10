@@ -12,7 +12,7 @@
     "@docusaurus/remark-plugin-npm2yarn": "^2.3.1",
     "@docusaurus/theme-classic": "^2.3.1",
     "@docusaurus/theme-mermaid": "^2.3.1",
-    "@docusaurus/theme-search-algolia": "^2.3.1",
+    "@markprompt/docusaurus-theme-search": "^0.6.0",
     "@mdx-js/react": "^1.6.21",
     "classnames": "^2.3.2",
     "clsx": "^1.1.1",
